@@ -19,11 +19,11 @@ body{
 
 @media (max-width: 600px) {
     .viz-container {
-        width: 60%;
+        width: 80%;
         min-width: unset !important;
-
+        
         position: relative;
-        left: 0%;
+        left: 4%;
     }
 }
 
