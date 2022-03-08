@@ -1,0 +1,120 @@
+body{
+    margin: 0 8px;
+    background: #c89e43;
+    color: #222;
+}
+
+.viz-container{
+    background: #efefef;
+    padding: 1.2em 30px 0 15px;
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+
+    width: 36%;
+    min-width: 500px;
+    position: absolute;
+    left: 32%;
+}
+
+@media (max-width: 600px) {
+    .viz-container {
+        width: 60%;
+        min-width: unset !important;
+
+        position: relative;
+        left: 0%;
+    }
+}
+
+.viz-title{
+    font-family: Helvetica;
+    font-size: 2.2em;
+}
+
+.viz-subtitle{    
+    font-family: Tahoma;
+    font-size: 1em;
+    color: #2a2a2a;
+    margin: 1.2em 0.5em 1.3em 0.2em;
+}
+
+.viz-footer{
+    font-family: Helvetica;
+    font-size: 0.95em;
+    margin: 0.5em;
+}
+
+.job-posting-container{
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+}
+
+.job-header{
+    display: flex;
+}
+
+.job-icon{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #444;
+    border-radius: 6px;   
+
+    text-align: center;
+    color: #efefef;
+    font-size: 2em;
+    font-family: Helvetica;
+}
+
+.job-description{
+    margin-left: 10px;
+    
+    font-family: Helvetica;
+    font-size: 0.96em;
+}
+
+.job-title{
+    font-family: Helvetica;
+    font-size: 1.3em;
+}
+
+.bar{
+    height: 22px;
+    padding-right: 5px;
+    margin: 2px 0;
+
+    text-align: end;
+    line-height: 22px;
+    color: #efefef;
+
+    background: #444;
+}
+
+
+.expand .job-description-expand{
+    display: block;
+}
+
+.job-description-expand{
+    display: none;
+}
+
+.job-description-expand{
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 5px;
+    border-top: 1px solid #444;
+
+    font-family: Helvetica;
+    font-size: 0.9em;
+    color: #2a2a2a;
+}
+
+.requirement-bullet{
+    background: #999;
+    height: 20px;
+    width: 0%;  /* starting width - will be animated with gsap  */
+    margin-top: 2px;
+}
